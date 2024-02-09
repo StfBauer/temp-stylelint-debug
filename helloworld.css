@@ -41,16 +41,6 @@ body {
     bottom: 100px;
 
 
-
-    @media screen and (max-width: 768px) {
-        content: "Hello world";
-    }
-
-    @media screen and (max-width: 1024px) {
-        background-color: magenta;
-
-        content: "Hello world";
-    }
 }
 
 div {
