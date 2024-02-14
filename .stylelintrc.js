@@ -1,5 +1,12 @@
 /** @type {import('stylelint').Config} */
 module.exports = {
+    "overrides": [
+        {
+            files: ["*.scss"],
+            customSyntax: "postcss-scss",
+            plugins: ["stylelint-scss"],
+        }
+    ],
     "plugins": [
         "stylelint-order",
         "stylelint-scss"
